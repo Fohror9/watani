@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>الإمتحان الوطني</title>
+   
+   <img style="height: 100px;width: 150px;margin-left: auto;margin-right: auto; "  src="image/logo.jpeg" alt="FOHROR">
+
+    <h1 style="text-align: center;color: white;">موعد الإمتحان الوطني</h1>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+p {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+  color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+</head>
+<body>
+<style>
+    body {
+        background-color: black;
+    }
+    
+
+</style>
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 09, 2023 07:59:59").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+<div class="tenor-gif-embed" data-postid="23521045" data-share-method="host" data-aspect-ratio="0.596875" data-width="100%">
+    <a href="https://tenor.com/view/%D9%82%D9%88%D8%AF%D9%88%D9%87%D8%A7-kawdouha-9awdouha-gif-23521045">قودوها Kawdouha GIF</a>from <a href="https://tenor.com/search/%D9%82%D9%88%D8%AF%D9%88%D9%87%D8%A7-gifs">قودوها GIFs</a></div>
+ <script
+  type="text/javascript" async src="https://tenor.com/embed.js">
+
+ </script>
+
+</body>
+</html>
